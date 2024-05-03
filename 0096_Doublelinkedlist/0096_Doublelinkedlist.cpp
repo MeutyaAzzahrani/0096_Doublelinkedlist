@@ -22,7 +22,7 @@ void addNode() {
 		if (START != NULL && newNode->noMhs == START->noMhs)
 		{
 			cout << "\033[31mDumplicate roll numbers not allowed\033[0m" << endl;
-				return;
+			return;
 		}
 		newNode->next = START;
 		if (START != NULL)
@@ -32,3 +32,9 @@ void addNode() {
 		newNode->prev = NULL;
 		START = newNode;
 	}
+	else
+	{
+		Node* current = START;
+		Node* previous = NULL;
+	}
+}
