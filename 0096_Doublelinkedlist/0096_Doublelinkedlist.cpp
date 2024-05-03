@@ -16,4 +16,8 @@ void addNode() {
 	cin >> newNode->noMhs;
 	cout << "\nMasukkan nama mahasiswa: ";
 	cin >> newNode->name;
+
+	if (START == NULL || newNode->noMhs <= START->noMhs) {
+
+	}
 }
